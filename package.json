@@ -1,0 +1,25 @@
+{
+  "name": "nodechatingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.15.1",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "author": "Idam Eni Idam",
+  "license": "ISC"
+}
